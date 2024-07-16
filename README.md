@@ -5,91 +5,91 @@
   <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="80" height="80" />
 </p>
 
-Eine moderne To-Do-App mit Django und React. Diese App ermöglicht das Erstellen, Bearbeiten und Löschen von Aufgaben und bietet eine benutzerfreundliche Oberfläche und ein effizientes Backend.
+A modern to-do app built with Django and React. This app allows users to create, edit, and delete tasks while offering a user-friendly interface and efficient backend.
 
-## 📑 Inhalt
+## 📑 Contents
 - [📸 Demo](#demo)
 - [✨ Features](#features)
 - [⚙️ Installation](#installation)
-- [🚀 Verwendung](#verwendung)
+- [🚀 Usage](#usage)
 - [🔌 API Endpoints](#api-endpoints)
-- [🛠️ Technologien](#technologien)
+- [🛠️ Technologies](#technologies)
 - [🤝 Contributing](#contributing)
-- [📄 Lizenz](#lizenz)
+- [📄 License](#license)
 
 ## 📸 Demo
-
+[Live Demo](https://your-live-demo-link.com)
 
 ## ✨ Features
-- 🔐 Benutzerregistrierung und -anmeldung
-- 📝 Aufgaben erstellen, bearbeiten und löschen
-- ✅ Aufgaben als erledigt markieren
-- 🔄 Echtzeit-Aktualisierungen
-- 📱 Responsive Design
+- 🔐 User registration and login
+- 📝 Create, edit, and delete tasks
+- ✅ Mark tasks as completed
+- 🔄 Real-time updates
+- 📱 Responsive design
 
 ## ⚙️ Installation
 
-### Voraussetzungen
+### Prerequisites
 - Python 3.x
 - Node.js
 - npm
 
 ### Backend (Django)
-1. Repository klonen:
+1. Clone the repository:
     ```sh
     git clone https://github.com/abdulrahim-ramadan/Django-React-ToDO-APP.git
     cd Django-React-ToDO-APP/backend
     ```
-2. Virtuelle Umgebung erstellen und aktivieren:
+2. Create and activate a virtual environment:
     ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
-3. Abhängigkeiten installieren:
+3. Install dependencies:
     ```sh
     pip install -r requirements.txt
     ```
-4. Datenbankmigrationen ausführen:
+4. Run database migrations:
     ```sh
     python manage.py migrate
     ```
-5. Entwicklungsserver starten:
+5. Start the development server:
     ```sh
     python manage.py runserver
     ```
 
 ### Frontend (React)
-1. In das Frontend-Verzeichnis wechseln:
+1. Navigate to the frontend directory:
     ```sh
     cd ../frontend
     ```
-2. Abhängigkeiten installieren:
+2. Install dependencies:
     ```sh
     npm install
     ```
-3. Entwicklungsserver starten:
+3. Start the development server:
     ```sh
     npm start
     ```
 
-## 🚀 Verwendung
-1. Öffne deinen Browser und gehe zu `http://localhost:3000`.
-2. Registriere dich oder melde dich an.
-3. Beginne damit, deine Aufgaben zu verwalten.
+## 🚀 Usage
+1. Open your browser and go to `http://localhost:3000`.
+2. Register or log in.
+3. Start managing your tasks.
 
 ## 🔌 API Endpoints
-- `GET /api/tasks/` - Liste aller Aufgaben
-- `POST /api/tasks/` - Neue Aufgabe erstellen
-- `PUT /api/tasks/<id>/` - Aufgabe aktualisieren
-- `DELETE /api/tasks/<id>/` - Aufgabe löschen
+- `GET /api/tasks/` - List all tasks
+- `POST /api/tasks/` - Create a new task
+- `PUT /api/tasks/<id>/` - Update a task
+- `DELETE /api/tasks/<id>/` - Delete a task
 
-## 🛠️ Technologien
+## 🛠️ Technologies
 - **Backend:** Django, Django REST Framework
 - **Frontend:** React, Redux
-- **Datenbank:** SQLite (Standard), kann einfach auf PostgreSQL oder MySQL geändert werden
+- **Database:** SQLite (default), can be easily switched to PostgreSQL or MySQL
 
 ## 🤝 Contributing
-Beiträge sind willkommen! Bitte erstelle ein Issue, um Fehler zu melden oder Features zu vorschlagen. Forke das Repository und erstelle einen Pull-Request für deine Änderungen.
+Contributions are welcome! Please open an issue to report bugs or suggest features. Fork the repository and create a pull request for your changes.
 
-## 📄 Lizenz
-Dieses Projekt steht unter der MIT Lizenz. Siehe [LICENSE](LICENSE) für weitere Informationen.
+## 📄 License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
