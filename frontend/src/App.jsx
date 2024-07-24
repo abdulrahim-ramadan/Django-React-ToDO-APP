@@ -8,14 +8,13 @@ import CreateToDo from './components/CreatTodo';
 
 
 function App() {
-
-  const [todos, setTodos] = useState([]);
-  //get todos from API
-  useEffect(()=>{
-    fetch("http://127.0.0.1:8000/todo/")
-    .then(response => response.json())
-    .then(data => setTodos(data))
-  })
+  
+  const [todos, setTodos] = useState([
+    { title: "Todo 1", status: "INPROGRESS" },
+    { title: "Todo 2", status: "DONE" },
+    { title: "Todo 3", status: "INPROGRESS" }
+]);
+// get todos from API
 
   return (
     <div className='container '>
