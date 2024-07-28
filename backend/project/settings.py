@@ -45,16 +45,24 @@ INSTALLED_APPS = [
 ]
 
 # CORS
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ALLOW_ALL_ORIGINS = False
 
-CORS_ALLOW_ALL_ORIGINS = True
+# حدد قائمة الأصول الموثوقة فقط
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',  # أضف أصول أخرى موثوقة إذا كانت موجودة
+    'https://example.com',    # مثال على أصول موثوقة إضافية
+]
+
+# CSRF
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:5173/'
+    'http://localhost:5173',  # تأكد من تطابق البروتوكول والمجال والمنفذ
+    'https://example.com',    # أضف أصول أخرى موثوقة إذا كانت موجودة
 ]
 
-CSRF_ALLOWED_ORIGINS = [
-    'http://localhost:5173/'
-]
+# CSRF_ALLOWED_ORIGINS غير موجودة كإعداد رسمي في Django.
+# تأكد من استخدام الإعداد الصحيح، هنا استخدمنا CSRF_TRUSTED_ORIGINS
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

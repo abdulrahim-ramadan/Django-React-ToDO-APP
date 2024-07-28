@@ -1,0 +1,87 @@
+/* ToDos.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.project-description {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.todo-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.btn-status {
+    color: white;
+}
+
+.btn-done {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-done:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-progress {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-progress:hover {
+    background-color: #138496;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-edit {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}

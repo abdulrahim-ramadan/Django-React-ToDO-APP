@@ -1,0 +1,55 @@
+/* ToDos.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.todo-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.btn {
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-done {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-done:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-progress {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+.btn-progress:hover {
+    background-color: #138496;
+    transform: scale(1.05);
+}
+
+.btn-edit {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
