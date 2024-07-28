@@ -1,11 +1,18 @@
-# 📝 Django-React To-Do App
+# 📝 ToDo App Using Django RestFramework + React
+
 
 <p align="center">
   <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="80" height="80" />
   <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="80" height="80" />
 </p>
 
-A modern to-do app built with Django and React. This app allows users to create, edit, and delete tasks while offering a user-friendly interface and efficient backend.
+
+This project utilizes Django RestFramework for the backend and React for the frontend, creating a seamless and efficient task management application.
+
+#### Project Contains:
+
+- **[Backend Repository](https://github.com/abdulrahim-ramadan/Django-React-ToDO-APP/tree/main/backend)**
+- **[Frontend Repository](https://github.com/abdulrahim-ramadan/Django-React-ToDO-APP/tree/main/frontend)**
 
 ## 📑 Contents
 - [📸 Demo](#demo)
@@ -22,17 +29,17 @@ A modern to-do app built with Django and React. This app allows users to create,
 
 ## ✨ Features
 - 🔐 User registration and login
-- 📝 Create, edit, and delete tasks
+- 📝 Create, edit, and delete 
 - ✅ Mark tasks as completed
 - 🔄 Real-time updates
 - 📱 Responsive design
 
 ## ⚙️ Installation
 
-### Prerequisites
-- Python 3.x
-- Node.js
-- npm
+### Tech Stack:
+- Backend: Python Django, Django RestFramework
+- Frontend: React, Bootstrap 5 Node.js
+- Additional Technologies: CORS Headers, Axios
 
 ### Backend (Django)
 1. Clone the repository:
@@ -90,6 +97,3 @@ A modern to-do app built with Django and React. This app allows users to create,
 
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue to report bugs or suggest features. Fork the repository and create a pull request for your changes.
-
-## 📄 License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
