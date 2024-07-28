@@ -80,7 +80,7 @@ This project utilizes Django RestFramework for the backend and React for the fro
     ```
 
 ## 🚀 Usage
-1. Open your browser and go to `http://localhost:3000`.
+1. Open your browser and go to `[http://127.0.0.1:8000/todo/]`.
 2. Register or log in.
 3. Start managing your tasks.
 
