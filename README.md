@@ -18,7 +18,7 @@ A modern to-do app built with Django and React. This app allows users to create,
 - [📄 License](#license)
 
 ## 📸 Demo
-[Live Demo](https://your-live-demo-link.com)
+![project demo](screenshot.png)
 
 ## ✨ Features
 - 🔐 User registration and login
